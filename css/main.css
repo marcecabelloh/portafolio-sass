@@ -6775,24 +6775,45 @@ button.picker__today:focus, button.picker__clear:focus, button.picker__close:foc
 * {
   font-family: "Open Sans", sans-serif; }
 
+body {
+  background-color: #E3E3E3; }
+
 nav {
   background-color: transparent !important; }
-
-.brand-logo {
-  margin-left: 20px; }
+  nav .brand-logo {
+    margin-left: 20px; }
+  nav .btn-large {
+    background-color: #E91E63; }
 
 .fuente {
   font-size: 10px; }
 
-.btn-large {
-  background-color: #E91E63; }
+.dropdown-content li a {
+  font-size: 13px;
+  color: black; }
 
-.carousel.carousel-slider.initialized {
-  height: 100vh;
+.slider {
+  top: 0px;
   position: absolute; }
+  .slider .slides li {
+    height: 80vh; }
+  .slider .slides .titulo-slide {
+    font-weight: bolder;
+    font-size: 70px; }
+  .slider .slides .parr-slide {
+    font-size: 20px;
+    font-weight: bold; }
 
-.caja {
-  color: white;
-  margin-top: 400px; }
+.contenedor {
+  z-index: 2;
+  position: relative;
+  background-color: white;
+  border-radius: 5px;
+  width: 90%;
+  top: 450px;
+  left: 70px; }
+  .contenedor .parr-caja {
+    margin-left: 80px;
+    margin-top: 50px; }
 
 /*# sourceMappingURL=main.css.map */

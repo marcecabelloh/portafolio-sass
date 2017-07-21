@@ -2,28 +2,64 @@
     font-family: $fuente;
 }
 
-nav{
- background-color: transparent !important;
+body{
+	background-color: #E3E3E3;
 }
 
-.brand-logo{
+nav{
+ 	background-color: transparent !important;
+ 	.brand-logo{
 	margin-left: 20px;
+	}
+	.btn-large{
+	background-color: $botones;
+	}
 }
 
 .fuente{
 	font-size: $tamano_fuente;
 }
 
-.btn-large{
-	background-color: $botones;
+
+.dropdown-content{
+	li{
+	 a{
+	font-size: 13px;
+	color: black;
+		}
+	}  
 }
 
-.carousel.carousel-slider.initialized{
-	height:100vh;
-	position:absolute;//para que carrusel partiera de arriba y así cree el efecto transparente del navbar
+.slider{
+	top: 0px;
+	position: absolute;
+	.slides{
+		li{
+			height:80vh;
+		}
+	.titulo-slide{
+			font-weight: bolder;
+			font-size: 70px;
+		}
+	.parr-slide{
+			font-size: 20px;
+			font-weight: bold;
+		}
+	}
 }
 
-.caja{
-	color:white;
-	margin-top: 400px;
+.contenedor{
+	z-index:2;
+	position:relative;
+	background-color:white;
+	border-radius: 5px;
+	width:90%;
+	top: 450px;
+	left: 70px;
+	.parr-caja{
+		margin-left: 80px;
+		margin-top: 50px;
+	}
 }
+
+
