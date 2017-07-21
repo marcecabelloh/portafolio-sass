@@ -1,0 +1,29 @@
+*{
+    font-family: $fuente;
+}
+
+nav{
+ background-color: transparent !important;
+}
+
+.brand-logo{
+	margin-left: 20px;
+}
+
+.fuente{
+	font-size: $tamano_fuente;
+}
+
+.btn-large{
+	background-color: $botones;
+}
+
+.carousel.carousel-slider.initialized{
+	height:100vh;
+	position:absolute;//para que carrusel partiera de arriba y así cree el efecto transparente del navbar
+}
+
+.caja{
+	color:white;
+	margin-top: 400px;
+}
