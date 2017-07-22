@@ -6843,4 +6843,13 @@ nav {
 .fa.fa-bars {
   color: #4caf50; }
 
+.clientes {
+  width: 100px; }
+
+.sec-newsletter {
+  background: url("../about.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
 /*# sourceMappingURL=main.css.map */
