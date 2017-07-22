@@ -1,4 +1,7 @@
 *{
+	 margin: 0;
+    padding: 0;
+    border: 0;
     font-family: $fuente;
 }
 
@@ -54,12 +57,44 @@ nav{
 	background-color:white;
 	border-radius: 5px;
 	width:90%;
-	top: 450px;
+	top: 430px;
 	left: 70px;
 	.parr-caja{
-		margin-left: 80px;
+		margin-left: 100px;
 		margin-top: 50px;
+		margin-bottom: 50px;
 	}
+	h6{
+		margin-top:10px;
+		margin-bottom: 50px;
+	.text{
+		margin-bottom:60px;
+	.img-ciudad{
+		background:url('../img_city.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+    .cont-plomo{//no pesca colores
+		background-color:$color_plomo;
+	.titulo-card{
+		color:$botones;
+	             }
+              }
+	       }
+		}
+	}	
 }
 
 
+//no logré anidar los iconos, es por eso que están separados, acá busco darle colores distintos, rosado, azul y verde.
+.fa.fa-th{
+	color:$botones;
+}
+
+.fa.fa-th-list{
+	color:$color_azul;
+}
+
+.fa.fa-bars{
+	color: $color_verde;
+}
