@@ -99,7 +99,7 @@ nav{
 }
 
 .sec-newsletter{
-	background:url("../about.jpg");
+	background:url("../img/about.jpg");
 	background-position: center;
 	background-size: cover;
 	background-repeat: no-repeat;
@@ -116,26 +116,36 @@ nav{
 
  .contenedor1{
  	background-color:white;
+ 	 box-shadow: 2px 2px 5px #999;
  }
 
  .contenedor2{
- 		background:url('../img_city.jpg');
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
+ 	background:url('../img/img_city.jpg');
+ 	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+    width: 90%;
+    position: relative;
+    top: 430px;
+    box-shadow: 2px 2px 5px #999;
  }
 
  .cont-plomo.contenedor6{
  	background-color:$color_plomo;
+ 	box-shadow: 2px 2px 5px #999;
+
  }
 
  .portfolio{
  	background-color:white;
+ 	box-shadow: 2px 2px 5px #999;
  }
 
  .team{
  	border-radius:$borde-imagen;
  	width: 85%;
+ 	 box-shadow: 2px 2px 5px #999;
  }
 
  .form-newsletter{
@@ -169,6 +179,7 @@ nav{
  	background-color:white;
  	border-radius:$borde-imagen;
  	margin-top:20px;
+ 	 box-shadow: 2px 2px 5px #999;
  }
 
  .caja-rosada{
@@ -176,6 +187,7 @@ nav{
  	padding:20px;
  	color:white;
  	border-radius:$borde-imagen;
+ 	 box-shadow: 2px 2px 5px #999;
  }
 
  
@@ -186,3 +198,75 @@ nav{
 .enlaces-footer:hover{
 	color:$botones;
 }
+
+.suscripcion{
+	color:white;
+}
+
+.contenedor-decima-seccion{
+	background:url('../img/img_city.jpg');
+ 	background-attachment: fixed;
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	width: 90%;
+    position: relative;
+    top: 430px;
+    
+}
+
+.text-blanco{
+	color:white;
+	.text-blanco-bolder{
+		font-weight:bolder;
+	}
+}
+
+.fuente-titulos{
+	font-family:$fuente-titulos;
+	font-weight:bolder;
+}
+
+.rosado{
+	color:$botones;
+}
+	.calipso{
+		color:$color_azul;
+    }
+
+    .rojo{
+		color:$color_rojo;
+       }
+	
+
+.facebook{
+	color:$facebook;
+}
+
+	.twitter{
+		color:$twitter;
+	}
+
+	.linkedin{
+		color:$linkedin;
+	}
+
+	.google{
+		color:$google;
+	}
+
+	.dribbble{
+		color:$dribbble;
+	}
+
+	.pinterest{
+		color:$pinterest;
+	}
+
+	.img-portfolio{
+		 box-shadow: 2px 2px 5px #999;
+	}
+
+	.titulo-card{
+		color:$botones;
+	}
