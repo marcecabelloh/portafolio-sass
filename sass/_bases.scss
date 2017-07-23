@@ -1,5 +1,5 @@
 *{
-	 margin: 0;
+	margin: 0;
     padding: 0;
     border: 0;
     font-family: $fuente;
@@ -19,7 +19,7 @@ nav{
 	}
 }
 
-.fuente{
+.fuente-nav{
 	font-size: $tamano_fuente;
 }
 
@@ -54,11 +54,12 @@ nav{
 .contenedor{
 	z-index:2;
 	position:relative;
-	background-color:white;
-	border-radius: 5px;
+	border-radius: $borde-imagen;
 	width:90%;
 	top: 430px;
 	left: 70px;
+	padding-bottom:40px;
+	padding-top: 40px;
 	.parr-caja{
 		margin-left: 100px;
 		margin-top: 50px;
@@ -69,19 +70,13 @@ nav{
 		margin-bottom: 50px;
 	.text{
 		margin-bottom:60px;
-	.img-ciudad{
-		background:url('../img_city.jpg');
-		background-position: center;
-		background-size: cover;
-		background-repeat: no-repeat;
     .cont-plomo{//no pesca colores
 		background-color:$color_plomo;
 	.titulo-card{
 		color:$botones;
-	             }
-              }
-	       }
-		}
+	            }
+            }
+		}  
 	}	
 }
 
@@ -110,4 +105,84 @@ nav{
 	background-repeat: no-repeat;
 }
 
+ .img-portfolio{
+ 	border-radius:$borde-imagen;
+ }
+
+ .footer{
+ 	background-color:$color_footer;
+ 	color:white;
+ }
+
+ .contenedor1{
+ 	background-color:white;
+ }
+
+ .contenedor2{
+ 		background:url('../img_city.jpg');
+		background-position: center;
+		background-size: cover;
+		background-repeat: no-repeat;
+ }
+
+ .cont-plomo.contenedor6{
+ 	background-color:$color_plomo;
+ }
+
+ .portfolio{
+ 	background-color:white;
+ }
+
+ .team{
+ 	border-radius:$borde-imagen;
+ 	width: 85%;
+ }
+
+ .form-newsletter{
+ 	background-color:white;
+ 	border-radius:$borde-imagen;
+
+ }
+
+ .fuente{
+ 	background-color: $botones;
+ }
+
+ .numero{
+ 	font-weight: bolder;
+ 	font-size: 40px;
+ 	.negrita{
+ 		color:black;
+ 		font-weight:bolder;
+ 	}
+ }
+
+ .card.card1{
+ 	background-color:$color_plomo;
+ }
+
+ .text-white{
+ 	color:grey;
+ }
+
+ form{
+ 	background-color:white;
+ 	border-radius:$borde-imagen;
+ 	margin-top:20px;
+ }
+
+ .caja-rosada{
+ 	background-color:$botones;
+ 	padding:20px;
+ 	color:white;
+ 	border-radius:$borde-imagen;
+ }
+
  
+.enlaces-footer{
+	color:$color_plomo;
+}
+
+.enlaces-footer:hover{
+	color:$botones;
+}

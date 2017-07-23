@@ -6788,7 +6788,7 @@ nav {
   nav .btn-large {
     background-color: #E91E63; }
 
-.fuente {
+.fuente-nav {
   font-size: 10px; }
 
 .dropdown-content li a {
@@ -6810,11 +6810,12 @@ nav {
 .contenedor {
   z-index: 2;
   position: relative;
-  background-color: white;
   border-radius: 5px;
   width: 90%;
   top: 430px;
-  left: 70px; }
+  left: 70px;
+  padding-bottom: 40px;
+  padding-top: 40px; }
   .contenedor .parr-caja {
     margin-left: 100px;
     margin-top: 50px;
@@ -6824,15 +6825,10 @@ nav {
     margin-bottom: 50px; }
     .contenedor h6 .text {
       margin-bottom: 60px; }
-      .contenedor h6 .text .img-ciudad {
-        background: url("../img_city.jpg");
-        background-position: center;
-        background-size: cover;
-        background-repeat: no-repeat; }
-        .contenedor h6 .text .img-ciudad .cont-plomo {
-          background-color: #f0f0f0; }
-          .contenedor h6 .text .img-ciudad .cont-plomo .titulo-card {
-            color: #E91E63; }
+      .contenedor h6 .text .cont-plomo {
+        background-color: #f0f0f0; }
+        .contenedor h6 .text .cont-plomo .titulo-card {
+          color: #E91E63; }
 
 .fa.fa-th {
   color: #E91E63; }
@@ -6851,5 +6847,68 @@ nav {
   background-position: center;
   background-size: cover;
   background-repeat: no-repeat; }
+
+.img-portfolio {
+  border-radius: 5px; }
+
+.footer {
+  background-color: #323437;
+  color: white; }
+
+.contenedor1 {
+  background-color: white; }
+
+.contenedor2 {
+  background: url("../img_city.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat; }
+
+.cont-plomo.contenedor6 {
+  background-color: #f0f0f0; }
+
+.portfolio {
+  background-color: white; }
+
+.team {
+  border-radius: 5px;
+  width: 85%; }
+
+.form-newsletter {
+  background-color: white;
+  border-radius: 5px; }
+
+.fuente {
+  background-color: #E91E63; }
+
+.numero {
+  font-weight: bolder;
+  font-size: 40px; }
+  .numero .negrita {
+    color: black;
+    font-weight: bolder; }
+
+.card.card1 {
+  background-color: #f0f0f0; }
+
+.text-white {
+  color: grey; }
+
+form {
+  background-color: white;
+  border-radius: 5px;
+  margin-top: 20px; }
+
+.caja-rosada {
+  background-color: #E91E63;
+  padding: 20px;
+  color: white;
+  border-radius: 5px; }
+
+.enlaces-footer {
+  color: #f0f0f0; }
+
+.enlaces-footer:hover {
+  color: #E91E63; }
 
 /*# sourceMappingURL=main.css.map */
