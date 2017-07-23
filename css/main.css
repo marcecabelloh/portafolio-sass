@@ -6817,7 +6817,6 @@ nav {
   padding-bottom: 40px;
   padding-top: 40px; }
   .contenedor .parr-caja {
-    margin-left: 100px;
     margin-top: 50px;
     margin-bottom: 50px; }
   .contenedor h6 {
@@ -6840,7 +6839,11 @@ nav {
   color: #4caf50; }
 
 .clientes {
-  width: 100px; }
+  width: 100px;
+  box-shadow: 2px 2px 5px #999; }
+
+.blog {
+  box-shadow: 2px 2px 5px #999; }
 
 .sec-newsletter {
   background: url("../img/about.jpg");
@@ -6850,10 +6853,6 @@ nav {
 
 .img-portfolio {
   border-radius: 5px; }
-
-.footer {
-  background-color: #323437;
-  color: white; }
 
 .contenedor1 {
   background-color: white;
@@ -6900,30 +6899,26 @@ nav {
 .card.card1 {
   background-color: #f0f0f0; }
 
+.titulo-card {
+  color: #E91E63; }
+
 .text-white {
   color: grey; }
+
+.suscripcion {
+  color: white; }
 
 form {
   background-color: white;
   border-radius: 5px;
   margin-top: 20px;
   box-shadow: 2px 2px 5px #999; }
-
-.caja-rosada {
-  background-color: #E91E63;
-  padding: 20px;
-  color: white;
-  border-radius: 5px;
-  box-shadow: 2px 2px 5px #999; }
-
-.enlaces-footer {
-  color: #f0f0f0; }
-
-.enlaces-footer:hover {
-  color: #E91E63; }
-
-.suscripcion {
-  color: white; }
+  form .caja-rosada {
+    background-color: #E91E63;
+    padding: 20px;
+    color: white;
+    border-radius: 5px;
+    box-shadow: 2px 2px 5px #999; }
 
 .contenedor-decima-seccion {
   background: url("../img/img_city.jpg");
@@ -6974,7 +6969,13 @@ form {
 .img-portfolio {
   box-shadow: 2px 2px 5px #999; }
 
-.titulo-card {
+.footer {
+  background-color: #323437;
+  color: white; }
+  .footer .enlaces-footer {
+    color: #f0f0f0; }
+
+.enlaces-footer:hover {
   color: #E91E63; }
 
 /*# sourceMappingURL=main.css.map */

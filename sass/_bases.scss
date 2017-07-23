@@ -61,7 +61,6 @@ nav{
 	padding-bottom:40px;
 	padding-top: 40px;
 	.parr-caja{
-		margin-left: 100px;
 		margin-top: 50px;
 		margin-bottom: 50px;
 	}
@@ -96,6 +95,11 @@ nav{
 
 .clientes{
 	width: 100px;
+	box-shadow: $sombra;
+}
+
+.blog{
+	box-shadow: $sombra;
 }
 
 .sec-newsletter{
@@ -106,17 +110,12 @@ nav{
 }
 
  .img-portfolio{
- 	border-radius:$borde-imagen;
- }
-
- .footer{
- 	background-color:$color_footer;
- 	color:white;
+ 	border-radius: $borde-imagen;
  }
 
  .contenedor1{
  	background-color:white;
- 	 box-shadow: 2px 2px 5px #999;
+ 	 box-shadow: $sombra;
  }
 
  .contenedor2{
@@ -128,24 +127,24 @@ nav{
     width: 90%;
     position: relative;
     top: 430px;
-    box-shadow: 2px 2px 5px #999;
+    box-shadow:$sombra;
  }
 
  .cont-plomo.contenedor6{
  	background-color:$color_plomo;
- 	box-shadow: 2px 2px 5px #999;
+ 	box-shadow:$sombra;
 
  }
 
  .portfolio{
  	background-color:white;
- 	box-shadow: 2px 2px 5px #999;
+ 	box-shadow:$sombra;
  }
 
  .team{
  	border-radius:$borde-imagen;
  	width: 85%;
- 	 box-shadow: 2px 2px 5px #999;
+ 	box-shadow:$sombra;
  }
 
  .form-newsletter{
@@ -171,37 +170,32 @@ nav{
  	background-color:$color_plomo;
  }
 
+ .titulo-card{
+	color:$botones;
+}
+
  .text-white{
  	color:grey;
  }
+
+ .suscripcion{
+	color:white;
+}
 
  form{
  	background-color:white;
  	border-radius:$borde-imagen;
  	margin-top:20px;
- 	 box-shadow: 2px 2px 5px #999;
+ 	box-shadow:$sombra;
+	.caja-rosada{
+	 	background-color:$botones;
+	 	padding:20px;
+	 	color:white;
+	 	border-radius:$borde-imagen;
+	 	box-shadow:$sombra;
+ 	}
  }
 
- .caja-rosada{
- 	background-color:$botones;
- 	padding:20px;
- 	color:white;
- 	border-radius:$borde-imagen;
- 	 box-shadow: 2px 2px 5px #999;
- }
-
- 
-.enlaces-footer{
-	color:$color_plomo;
-}
-
-.enlaces-footer:hover{
-	color:$botones;
-}
-
-.suscripcion{
-	color:white;
-}
 
 .contenedor-decima-seccion{
 	background:url('../img/img_city.jpg');
@@ -227,46 +221,57 @@ nav{
 	font-weight:bolder;
 }
 
+//no logré anidarlos con sus padres por eso están por separado. (colores a iconos redes sociales y titulos)
+
 .rosado{
 	color:$botones;
 }
-	.calipso{
-		color:$color_azul;
-    }
+.calipso{
+	color:$color_azul;
+}
 
-    .rojo{
-		color:$color_rojo;
-       }
-	
+.rojo{
+	color:$color_rojo;
+}
+
 
 .facebook{
 	color:$facebook;
 }
 
-	.twitter{
-		color:$twitter;
-	}
+.twitter{
+	color:$twitter;
+}
 
-	.linkedin{
-		color:$linkedin;
-	}
+.linkedin{
+	color:$linkedin;
+}
 
-	.google{
-		color:$google;
-	}
+.google{
+	color:$google;
+}
 
-	.dribbble{
-		color:$dribbble;
-	}
+.dribbble{
+	color:$dribbble;
+}
 
-	.pinterest{
-		color:$pinterest;
-	}
+.pinterest{
+	color:$pinterest;
+}
 
-	.img-portfolio{
-		 box-shadow: 2px 2px 5px #999;
-	}
+.img-portfolio{
+	box-shadow:$sombra;
+}
 
-	.titulo-card{
-		color:$botones;
+ .footer{
+ 	background-color:$color_footer;
+ 	color:white;
+ 	.enlaces-footer{
+	color:$color_plomo;
+	
 	}
+ }
+
+.enlaces-footer:hover{
+	color:$botones;
+	   }
