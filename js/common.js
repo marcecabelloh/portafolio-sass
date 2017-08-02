@@ -15,4 +15,3 @@
       stopPropagation: false // Stops event propagation
     }
   );
- 
