@@ -79,6 +79,12 @@ nav{
 	}	
 }
 
+@media (max-width:425px){
+	.contenedor{
+		width:100%;
+		margin-left:-70px;
+	}
+}
 
 //no logré anidar los iconos, es por eso que están separados, acá busco darle colores distintos, rosado, azul y verde.
 .fa.fa-th{
@@ -130,6 +136,12 @@ nav{
     box-shadow:$sombra;
  }
 
+ @media (max-width:425px){
+ 	.contenedor2{
+ 		width:100%;
+ 	}
+ }
+
  .cont-plomo.contenedor6{
  	background-color:$color_plomo;
  	box-shadow:$sombra;
@@ -139,6 +151,12 @@ nav{
  .portfolio{
  	background-color:white;
  	box-shadow:$sombra;
+ }
+
+ @media (max-width:425px){
+ 	.portfolio{
+ 		margin-top:-95px;;
+ 	}
  }
 
  .team{
@@ -205,9 +223,16 @@ nav{
 	background-repeat: no-repeat;
 	width: 90%;
     position: relative;
-    top: 430px;
-    
+    top: 430px;   
 }
+
+@media (max-width:425px){
+ 	.contenedor-decima-seccion{
+ 		width:100%;
+ 	}
+ }
+
+
 
 .text-blanco{
 	color:white;
